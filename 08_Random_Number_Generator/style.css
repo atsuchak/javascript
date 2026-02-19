@@ -1,0 +1,33 @@
+#number {
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: palegoldenrod;
+    background-color: cadetblue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#button:hover {
+    background-color: rgb(50, 90, 92);
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+.labelCnt {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px 15px;
+}
