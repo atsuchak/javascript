@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JS - 27_Random_Password_Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Password Generator</h1>
+
+        <div class="options">
+            <div class="passLen">
+                <label for="">Enter password length: </label>
+                <input type="number" value="8" min="1" id="passLength">
+            </div>
+
+            <div class="lower">
+                <input type="checkbox" name="" id="addLowerCase">
+                <label for="checkbox">Lowercase letter</label>
+            </div>
+            
+            <div class="upper">
+                <input type="checkbox" name="" id="addUpperCase">
+                <label for="checkbox">Uppercase letter</label>
+            </div>
+            
+            <div class="symbol">
+                <input type="checkbox" name="" id="addSymbol">
+                <label for="checkbox">Special Symbol</label>
+            </div>
+            
+            <div class="number">
+                <input type="checkbox" name="" id="addNumber">
+                <label for="checkbox">Numbers</label>
+            </div>
+
+            <button onclick="submitButton()" id="button">Generate</button>
+        </div>
+
+        <div class="display"><h2 id="output"></h2></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

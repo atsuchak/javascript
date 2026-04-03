@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#passLength {
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#button {
+    padding: 15px 5px;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 20px;
+    background-color: rgb(195, 225, 252);
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px rgb(154, 154, 252);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: rgb(164, 206, 243);
+}
+
+.display {
+    word-break: break-all;
+}
